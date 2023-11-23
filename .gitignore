@@ -1,4 +1,4 @@
-# Created by https://www.toptal.com/developers/gitignore/api/pycharm,visualstudiocode,eclipse,vim
+#*Created by https://www.toptal.com/developers/gitignore/api/pycharm,visualstudiocode,eclipse,vim
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm,visualstudiocode,eclipse,vim
 
 .DS_Store
@@ -7,8 +7,8 @@
 .metadata
 bin/
 tmp/
-*.tmp
-*.bak
+ .tmp
+#.bak
 *.swp
 *~.nib
 local.properties
@@ -185,7 +185,7 @@ fabric.properties
 ### Vim ###
 # Swap
 [._]*.s[a-v][a-z]
-!*.svg  # comment out if you don't need vector files
+#*.svg  # comment out if you don't need vector files
 [._]*.sw[a-p]
 [._]s[a-rt-v][a-z]
 [._]ss[a-gi-z]
@@ -205,7 +205,7 @@ tags
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
+ .vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -231,4 +231,4 @@ tags
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,visualstudiocode,eclipse,vim
 
 .idea/*
-.gitignore
+.gitignore 
